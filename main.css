@@ -1,0 +1,44 @@
+body {
+    color: beige;
+    background: #111;
+    margin-bottom: 200px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+    grid-gap: 0.5em;
+}
+
+.item {
+    padding: 0.5em;
+    text-align: center;
+}
+
+/* Left content */
+
+.label {
+    font-size: 4rem;
+}
+
+.price {
+    font-size: 3rem;
+}
+
+.flag {
+    font-size: 2rem;
+}
+
+/* Right content */
+
+.next_label {
+    font-size: 4rem;
+}
+
+.next_price {
+    font-size: 3rem;
+}
+
+.next_flag {
+    font-size: 2rem;
+}
