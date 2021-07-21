@@ -143,7 +143,7 @@ let data = fetch("data.json")
         }
         else if (currentTime >= 23 & currentTime < 24) {
             document.getElementById('price').innerText = json[23].price
-            document.getElementById('next_price').innerText = json[24].price
+            document.getElementById('next_price').innerText = json[0].price
             document.getElementById('flag').innerText = "🟢 Hora valle 🟢"
             document.getElementById('next_flag').innerText = "🟢 Hora super-valle 🟢"
         }
