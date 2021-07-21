@@ -1,98 +1,74 @@
 [
     {
-        "time": "00h - 01h:",
-        "price": "0.14008 €/kWh"
+        "price": "0.13359 €/kWh"
     },
     {
-        "time": "01h - 02h:",
-        "price": "0.13936 €/kWh"
+        "price": "0.12999 €/kWh"
     },
     {
-        "time": "02h - 03h:",
-        "price": "0.13811 €/kWh"
+        "price": "0.12872 €/kWh"
     },
     {
-        "time": "03h - 04h:",
-        "price": "0.13628 €/kWh"
+        "price": "0.12761 €/kWh"
     },
     {
-        "time": "04h - 05h:",
-        "price": "0.13726 €/kWh"
+        "price": "0.12783 €/kWh"
     },
     {
-        "time": "05h - 06h:",
-        "price": "0.13779 €/kWh"
+        "price": "0.12793 €/kWh"
     },
     {
-        "time": "06h - 07h:",
-        "price": "0.13667 €/kWh"
+        "price": "0.12856 €/kWh"
     },
     {
-        "time": "07h - 08h:",
-        "price": "0.13534 €/kWh"
+        "price": "0.13017 €/kWh"
     },
     {
-        "time": "08h - 09h:",
-        "price": "0.16982 €/kWh"
+        "price": "0.16676 €/kWh"
     },
     {
-        "time": "09h - 10h:",
-        "price": "0.16621 €/kWh"
+        "price": "0.16616 €/kWh"
     },
     {
-        "time": "10h - 11h:",
-        "price": "0.25748 €/kWh"
+        "price": "0.25623 €/kWh"
     },
     {
-        "time": "11h - 12h:",
-        "price": "0.25722 €/kWh"
+        "price": "0.2554 €/kWh"
     },
     {
-        "time": "12h - 13h:",
-        "price": "0.25903 €/kWh"
+        "price": "0.25627 €/kWh"
     },
     {
-        "time": "13h - 14h:",
-        "price": "0.25938 €/kWh"
+        "price": "0.25445 €/kWh"
     },
     {
-        "time": "14h - 15h:",
-        "price": "0.16563 €/kWh"
+        "price": "0.16054 €/kWh"
     },
     {
-        "time": "15h - 16h:",
-        "price": "0.16387 €/kWh"
+        "price": "0.1585 €/kWh"
     },
     {
-        "time": "16h - 17h:",
-        "price": "0.16143 €/kWh"
+        "price": "0.15579 €/kWh"
     },
     {
-        "time": "17h - 18h:",
-        "price": "0.1607 €/kWh"
+        "price": "0.15542 €/kWh"
     },
     {
-        "time": "18h - 19h:",
-        "price": "0.25585 €/kWh"
+        "price": "0.24974 €/kWh"
     },
     {
-        "time": "19h - 20h:",
-        "price": "0.2645 €/kWh"
+        "price": "0.25776 €/kWh"
     },
     {
-        "time": "20h - 21h:",
-        "price": "0.26793 €/kWh"
+        "price": "0.26219 €/kWh"
     },
     {
-        "time": "21h - 22h:",
-        "price": "0.26703 €/kWh"
+        "price": "0.2641 €/kWh"
     },
     {
-        "time": "22h - 23h:",
-        "price": "0.17213 €/kWh"
+        "price": "0.17197 €/kWh"
     },
     {
-        "time": "23h - 24h:",
-        "price": "0.16887 €/kWh"
+        "price": "0.17036 €/kWh"
     }
 ]
