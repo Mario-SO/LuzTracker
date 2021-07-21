@@ -46,22 +46,22 @@ body {
 @media only screen and (max-width: 768px) {
     /* Left content */
     .label {
-        font-size: 3rem;
-    }
-    .price {
         font-size: 2rem;
     }
+    .price {
+        font-size: 1.3rem;
+    }
     .flag {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     /* Right content */
     .next_label {
-        font-size: 3rem;
-    }
-    .next_price {
         font-size: 2rem;
     }
+    .next_price {
+        font-size: 1.3rem;
+    }
     .next_flag {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 }
