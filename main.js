@@ -30,5 +30,4 @@ let data = fetch("data.json")
         else {
             document.getElementById('flag').innerText = "🔴 Hora punta 🔴"
         }
-        console.log(currentTime, currentTime + 1)
     })
