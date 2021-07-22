@@ -25,9 +25,9 @@ let data = fetch("data.json")
             document.getElementById('next_flag').innerText = "🟢 Hora super-valle 🟢"
         }
         else if (horaValle.includes(currentTime + 1)) {
-            document.getElementById('flag').innerText = "🟢 Hora valle 🟢"
+            document.getElementById('next_flag').innerText = "🟢 Hora valle 🟢"
         }
         else {
-            document.getElementById('flag').innerText = "🔴 Hora punta 🔴"
+            document.getElementById('next_flag').innerText = "🔴 Hora punta 🔴"
         }
     })
