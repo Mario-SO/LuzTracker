@@ -22,20 +22,20 @@ let data = fetch("data.json")
         document.getElementById('next_price').innerText = json[(currentTime + 1) % 24].price
 
         if (horaSuperValle.includes(currentTime)) {
-            document.getElementById('flag').innerText = "🟢 Hora super-valle 🟢"
+            document.getElementById('flag').innerText = "🟢 Hora valle 🟢"
         }
         else if (horaValle.includes(currentTime)) {
-            document.getElementById('flag').innerText = "🟡 Hora valle 🟡"
+            document.getElementById('flag').innerText = "🟡 Hora llana 🟡"
         }
         else {
             document.getElementById('flag').innerText = "🔴 Hora punta 🔴"
         }
 
         if (horaSuperValle.includes((currentTime + 1) % 24)) {
-            document.getElementById('next_flag').innerText = "🟢 Hora super-valle 🟢"
+            document.getElementById('next_flag').innerText = "🟢 Hora valle 🟢"
         }
         else if (horaValle.includes((currentTime + 1) % 24)) {
-            document.getElementById('next_flag').innerText = "🟡 Hora valle 🟡"
+            document.getElementById('next_flag').innerText = "🟡 Hora llana 🟡"
         }
         else if (horaPunta.includes((currentTime + 1) % 24)) {
             document.getElementById('next_flag').innerText = "🔴 Hora punta 🔴"
