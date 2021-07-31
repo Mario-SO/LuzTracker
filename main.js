@@ -1,15 +1,6 @@
-// let prices = []
-// async function getData() {
-//     await fetch('https://tarifaluzhora.es/')
-//         .then(response => document.querySelectorAll('#hour_prices > div > span:nth-child(2)').forEach(itemP => {
-//             console.log(itemP)
-//             const price = itemP.innerHTML
-//             prices.push({ price })
-//         }))
-// }
-// console.log(prices)
-
 let currentTime = new Date().getHours();
+let today = new Date().getDay();
+
 const horaSuperValle = [0, 1, 2, 3, 4, 5, 6, 7]
 const horaValle = [8, 9, 14, 15, 16, 17, 22, 23]
 const horaPunta = [10, 11, 12, 13, 18, 19, 20, 21]
@@ -21,23 +12,28 @@ let data = fetch("data.json")
         document.getElementById('price').innerText = json[currentTime % 24].price
         document.getElementById('next_price').innerText = json[(currentTime + 1) % 24].price
 
-        if (horaSuperValle.includes(currentTime)) {
-            document.getElementById('flag').innerText = "🟢 Hora valle 🟢"
-        }
-        else if (horaValle.includes(currentTime)) {
+        if (today == 6 | today == 7) {
             document.getElementById('flag').innerText = "🟡 Hora llana 🟡"
-        }
-        else {
-            document.getElementById('flag').innerText = "🔴 Hora punta 🔴"
-        }
-
-        if (horaSuperValle.includes((currentTime + 1) % 24)) {
-            document.getElementById('next_flag').innerText = "🟢 Hora valle 🟢"
-        }
-        else if (horaValle.includes((currentTime + 1) % 24)) {
             document.getElementById('next_flag').innerText = "🟡 Hora llana 🟡"
-        }
-        else if (horaPunta.includes((currentTime + 1) % 24)) {
-            document.getElementById('next_flag').innerText = "🔴 Hora punta 🔴"
+        } else {
+            if (horaSuperValle.includes(currentTime)) {
+                document.getElementById('flag').innerText = "🟢 Hora valle 🟢"
+            }
+            else if (horaValle.includes(currentTime)) {
+                document.getElementById('flag').innerText = "🟡 Hora llana 🟡"
+            }
+            else {
+                document.getElementById('flag').innerText = "🔴 Hora punta 🔴"
+            }
+
+            if (horaSuperValle.includes((currentTime + 1) % 24)) {
+                document.getElementById('next_flag').innerText = "🟢 Hora valle 🟢"
+            }
+            else if (horaValle.includes((currentTime + 1) % 24)) {
+                document.getElementById('next_flag').innerText = "🟡 Hora llana 🟡"
+            }
+            else if (horaPunta.includes((currentTime + 1) % 24)) {
+                document.getElementById('next_flag').innerText = "🔴 Hora punta 🔴"
+            }
         }
     })
